@@ -16,3 +16,10 @@ To remove Pachyderm from Kubernetes:
 ```
 bash <(wget -qO- https://github.com/gabrielgrant/pach-quickstart/blob/master/unlaunch-pach.sh?raw=true)
 ```
+
+Debugging
+
+```
+kubectl get all
+kubectl describe pod rethink-XXXXX
+```
